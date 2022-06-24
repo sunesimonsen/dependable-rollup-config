@@ -1,8 +1,13 @@
 {
   "name": "@dependable/rollup-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Opinionated rollup config for @dependable/view",
-  "keywords": ["build", "bundling", "dependable", "view"],
+  "keywords": [
+    "build",
+    "bundling",
+    "dependable",
+    "view"
+  ],
   "author": "Sune Simonsen <sune@we-knowhow.dk>",
   "license": "MIT",
   "main": "src/config.js",
