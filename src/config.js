@@ -32,7 +32,6 @@ export default [
       nodeResolve(),
       commonjs(),
       babel({
-        rootMode: "upward",
         babelHelpers: "bundled",
       }),
       terser({
