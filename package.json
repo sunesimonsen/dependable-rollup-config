@@ -1,0 +1,35 @@
+{
+  "name": "@dependable/rollup-config",
+  "version": "0.1.0",
+  "description": "Opinionated rollup config for @dependable/view",
+  "keywords": ["build", "bundling", "dependable", "view"],
+  "author": "Sune Simonsen <sune@we-knowhow.dk>",
+  "license": "MIT",
+  "main": "src/config.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunesimonsen/dependable-rollup-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunesimonsen/dependable-rollup-config/issues"
+  },
+  "peerDependencies": {
+    "rollup": "^2.39.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@web/rollup-plugin-html": "^1.9.1",
+    "@web/rollup-plugin-import-meta-assets": "^1.0.4",
+    "babel-plugin-htm": "^3.0.0",
+    "babel-plugin-stylewars": "^0.1.0",
+    "rollup-plugin-dynamic-import-variables": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
