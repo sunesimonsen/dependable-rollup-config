@@ -4,10 +4,10 @@
 
 ```sh
 # npm
-npm install --save rollup @dependable/rollup-config
+npm install -D rollup @dependable/rollup-config
 
 # yarn
-npm add rollup @dependable/rollup-config
+npm add -D rollup @dependable/rollup-config
 ```
 
 ## Usage
