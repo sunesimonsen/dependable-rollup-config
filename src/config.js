@@ -33,6 +33,17 @@ export default [
       commonjs(),
       babel({
         babelHelpers: "bundled",
+        plugins: [
+          "stylewars",
+          [
+            "htm",
+            {
+              import: "@dependable/view",
+              useBuiltIns: true,
+              useNativeSpread: true,
+            },
+          ],
+        ],
       }),
       terser({
         compress: false,
