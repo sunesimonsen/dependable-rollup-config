@@ -7,7 +7,7 @@
 npm install -D rollup @dependable/rollup-config
 
 # yarn
-npm add -D rollup @dependable/rollup-config
+yarn add -D rollup @dependable/rollup-config
 ```
 
 ## Usage
