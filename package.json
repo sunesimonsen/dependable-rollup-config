@@ -1,6 +1,6 @@
 {
   "name": "@dependable/rollup-config",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Opinionated rollup config for @dependable/view",
   "keywords": [
     "build",
